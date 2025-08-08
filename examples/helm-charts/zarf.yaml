@@ -7,6 +7,7 @@ metadata:
 variables:
   - name: POD_ANNOTATIONS
     description: "Override the pod annotations"
+    default: "{ foo: bar, this: should-not-get-merged }"
 
 components:
   - name: demo-helm-charts
