@@ -5,6 +5,7 @@ modified values.yaml to include:
 
 podAnnotations:
   foo: bar
+  this: should-not-get-merged
 
 uds bundle overrides:
   podAnnotations:
