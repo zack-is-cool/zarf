@@ -104,7 +104,8 @@ securityContext: {}
 ingress:
   enabled: false
   className: ""
-  annotations: {}
+  annotations:
+    {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
@@ -139,7 +140,9 @@ tolerations: []
 
 affinity: {}
 
-podAnnotations: {}
+podAnnotations:
+  foo: bar
+  this: should-not-get-merged
 
 # https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
 probes:
