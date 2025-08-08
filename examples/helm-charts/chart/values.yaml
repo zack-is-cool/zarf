@@ -140,9 +140,7 @@ tolerations: []
 
 affinity: {}
 
-podAnnotations:
-  foo: bar
-  this: should-not-get-merged
+podAnnotations: "###ZARF_VAR_POD_ANNOTATIONS"
 
 # https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
 probes:

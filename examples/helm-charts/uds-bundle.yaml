@@ -12,6 +12,11 @@ packages:
     overrides:
       demo-helm-charts:
         podinfo-local:
+          # values:
+          #   - path: "podAnnotations"
+          #     value:
+          #       bler: baz
+          #       taco: bell
           variables:
             - path: "podAnnotations"
               name: POD_ANNOTATIONS

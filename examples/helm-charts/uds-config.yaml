@@ -1,0 +1,5 @@
+variables:
+  helm-charts:
+    POD_ANNOTATIONS:
+      bler: baz
+      taco: bellasdfasdfasdfasdfasdf

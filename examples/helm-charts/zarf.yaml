@@ -4,6 +4,10 @@ metadata:
   description: Example showcasing multiple ways to deploy helm charts
   version: 0.0.1
 
+variables:
+  - name: POD_ANNOTATIONS
+    description: "Override the pod annotations"
+
 components:
   - name: demo-helm-charts
     required: true
